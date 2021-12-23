@@ -181,7 +181,7 @@ To do so:
 - ![](https://i.imgur.com/XxKFtU0.png)
 - Enter your Token Contract Address, and it should detect the name and number of decimals automatically
 - Click Add, and you will see your balance in Metamask!
-![](https://i.imgur.com/Wwxe0kg.png)
+- ![](https://i.imgur.com/Wwxe0kg.png)
 
 Share a screenshot in the Discord!
 
