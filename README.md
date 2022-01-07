@@ -1,4 +1,4 @@
-# Cryptocurrency Tutorial (ERC20)
+# Level 8 - Cryptocurrency Tutorial (ERC20)
 
 In this step-by-step tutorial, you will learn how to create and deploy an `ERC-20` token on Ethereum. 
 
