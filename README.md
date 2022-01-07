@@ -68,7 +68,7 @@ import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contr
 
 This line imports the `ERC-20` token standard from [OpenZeppelin](https://openzeppelin.com/) (OZ). OZ is an Ethereum security company. Among other things, OZ develops reference contracts for popular smart contract standards which are thoroughly tested and secure. Whenever implementing a smart contract which needs to comply with a standard, try to find an OZ reference implementation rather than rewriting the entire standard from scratch.
 
-You can look at the implementation of `ERC-20` standard contract if you want by following the link - https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC20/ERC20.sol
+You can look at the implementation of `ERC-20` standard contract if you want by following the link - [https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC20/ERC20.sol](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC20/ERC20.sol)
 
 > Note: In the Sophomore track, we will take a deeper dive into the ERC-20 standard contract to understand everything that is going on within that contract.
 
