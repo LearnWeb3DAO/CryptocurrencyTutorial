@@ -36,7 +36,7 @@ In Remix, create a new contract file, I named mine `LW3Token.sol` - you can name
 
 In the contract, write the following code:
 
-```solidity=
+```solidity
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
@@ -51,7 +51,7 @@ contract LW3Token is ERC20 {
 
 Let's break it down line-by-line and understand what is going on:
 
-```solidity=
+```solidity
 pragma solidity ^0.8.0;
 ```
 
@@ -62,7 +62,7 @@ This line specifies the compiler version of Solidity to be used. `^0.8.0` means 
 ---
 
 
-```solidity=
+```solidity
 import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC20/ERC20.sol";
 ```
 
@@ -74,7 +74,7 @@ You can look at the implementation of `ERC-20` standard contract if you want by 
 
 ---
 
-```solidity=
+```solidity
 contract LW3Token is ERC20 {
     ...
 }
@@ -89,7 +89,7 @@ If you are familiar with Object Oriented Programming principles, you can think o
 
 ---
 
-```solidity=
+```solidity
 constructor(string memory _name, string memory _symbol) ERC20(_name, _symbol) {
      ...
 }
@@ -108,7 +108,7 @@ Therefore, we are providing `_name` and `_symbol` variables to our contract, whi
 
 ---
 
-```solidity=
+```solidity
 _mint(msg.sender, 10 * 10 ** 18);
 ```
 
