@@ -4,6 +4,11 @@ In this step-by-step tutorial, you will learn how to create and deploy an `ERC-2
 
 We will use [Metamask](https://metamask.io/) and [Remix IDE](https://remix.ethereum.org/) for this tutorial.
 
+## Prefer a Video?
+If you would rather learn from a video, we have a recording available of this tutorial on our YouTube. Watch the video by clicking on the screenshot below, or go ahead and read the tutorial!
+
+[![Cryptocurrency Tutorial](https://i.imgur.com/RVzkVsZ.png)](https://www.youtube.com/watch?v=5yM5bojHbmQ "Cryptocurrency Tutorial")
+
 ## What is ERC-20?
 `ERC` stands for `Ethereum Request for Comment`. Essentially, they are standards that have been approved by the community and are used to convey technical requirements and specifications for certain use cases.
 
