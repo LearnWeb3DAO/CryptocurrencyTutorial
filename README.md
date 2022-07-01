@@ -102,11 +102,11 @@ constructor(string memory _name, string memory _symbol) ERC20(_name, _symbol) {
 
 This bit has slightly weird syntax that you might not have seen before. `Kotlin` actually has some similar syntax, but I digress.
 
-Essentially, we created `constructor` function that is called when the smart contract is first deployed. Within the constructor, we want two arguments from the user - `_name` and `_symbol` which specify the name and symbol of our cryptocurrency. Eg. name = Ethereum, symbol = ETH.
+Essentially, we created `constructor` function that is called when the smart contract is first deployed. Within the constructor, we want two arguments from the user - `_name` and `_symbol` which specify the name and symbol of our cryptocurrency. E.g. name = Ethereum, symbol = ETH.
 
 What happens after it is more interesting. Immediately after specifying the constructor function, we call `ERC20(_name, _symbol)`.
 
-The `ERC20` contract we imported from OpenZeppelin has it's own constructor, which requires the `name` and `symbol` parameters. Since we are extending the ERC20 contract, we need to initialize the ERC20 contract when we deploy ours. So, as part of our constructor, we also need to call the constructor on the `ERC20` contract.
+The `ERC20` contract we imported from OpenZeppelin has its own constructor, which requires the `name` and `symbol` parameters. Since we are extending the ERC20 contract, we need to initialize the ERC20 contract when we deploy ours. So, as part of our constructor, we also need to call the constructor on the `ERC20` contract.
 
 Therefore, we are providing `_name` and `_symbol` variables to our contract, which we immediately pass on to the `ERC20` constructor, thereby initializing the `ERC20` smart contract.
 
