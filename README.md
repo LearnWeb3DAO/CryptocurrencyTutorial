@@ -6,7 +6,7 @@ We will use [Metamask](https://metamask.io/) and [Remix IDE](https://remix.ether
 
 ## Prefer a Video?
 If you would rather learn from a video, we have a recording available of this tutorial on our YouTube. Watch the video by clicking on the screenshot below, or go ahead and read the tutorial!
-
+Note :- this Video tutorial is based on rinkeby testnet but the text tutorial is based on Goerli testnet for future support 
 [![Cryptocurrency Tutorial](https://i.imgur.com/RVzkVsZ.png)](https://www.youtube.com/watch?v=5yM5bojHbmQ "Cryptocurrency Tutorial")
 
 ## What is ERC-20?
@@ -25,10 +25,10 @@ For example, decentralized exchanges like [Uniswap](https://uniswap.org/) allow 
 ## Prerequisites
 
 - Make sure you have downloaded and installed [Metamask](https://metamask.io/). 
-- Select the `Rinkeby Testnet` network to work with
-- Request some testnet ether on Rinkeby through any one of the following faucets:
-    - [Metamask Faucet](https://faucet.metamask.io/)
-    - [Chainlink Faucet](https://faucets.chain.link/rinkeby)
+- Select the `Goerli Testnet` network to work with
+- Request some testnet ether on Goerli through any one of the following faucets:
+    - [Alchemy Faucet](https://goerlifaucet.com/)
+    - [Chainlink Faucet](https://faucets.chain.link/goerli)
     - [Paradigm Faucet](https://faucet.paradigm.xyz/)
 
 Once you have set all of these up, let's get started!
@@ -157,7 +157,7 @@ Compile your contract by either pressing Save (CTRL + S on Windows, Command + S 
 
 Head over to the `Deployer` tab in Remix.
 
-Select the `Injected Web3` environment (ensure you are on the Rinkeby Test Network), and connect your Metamask wallet.
+Select the `Injected Web3` environment (ensure you are on the Goerli Test Network), and connect your Metamask wallet.
 
 Select the `LW3Token.sol` contract, and enter values for the constructor arguments `_name` and `_symbol`.
 
@@ -171,7 +171,7 @@ When deployed, the contract should show up under the `Deployed Contracts` sectio
 
 ![](https://i.imgur.com/19haj2L.png)
 
-Go to [Rinkeby Etherscan](https://rinkeby.etherscan.io/) and search for your contract address and you should see it there!
+Go to [Goerli Etherscan](https://goerli.etherscan.io/) and search for your contract address and you should see it there!
 
 Take a screenshot of it and share it on Discord to show off your newly created token :D
 
